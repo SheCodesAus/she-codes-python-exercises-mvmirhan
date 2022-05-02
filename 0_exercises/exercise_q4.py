@@ -2,7 +2,7 @@
 # and outputs a summary sentence.
 
 a=str(input("What is your name : "))
-b=float(input("How tall are you (cms)?"))
+b=float(input("How tall are you (cms)? "))
 print(a, "is " ,round(b) ,"cms tall.")
 
 

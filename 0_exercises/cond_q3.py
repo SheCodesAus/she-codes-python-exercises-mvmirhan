@@ -9,7 +9,7 @@
 
 
 light_color = "Green"
-car_detected = True
+car_detected = False
 
 if light_color == "Red" and car_detected:
     print("Flash")
