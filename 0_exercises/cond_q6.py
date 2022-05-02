@@ -2,14 +2,11 @@
 # the purpose of this exercise, you can make the assumption that a valid email address contains a “@” symbol
 # and a “.” symbol.
 
-
 email_add=input("Enter your email address: ")
 
-email_add.find("@")
-
-if( email_add.find("@")>0) and (email_add.find(".")>0):
-    print("Valid email address")
-else: print ("Invalid email address")
+if "@" and "." in email_add:
+    print("Valid")
+else: print ("Invalid")
 
 
 
