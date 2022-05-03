@@ -5,12 +5,17 @@ c = [7, 8, 9]
 d = []
 e = []
 
+#Q1
 list_1=[a,b,c]
 print(list_1)
 
-#what is the other way to achieve this? 
-for i in b:
-    a.append(i)
-for i in c:
-    a.append(i)
-print(a)
+#Q2: what is the other way to achieve this? 
+# for x in b:
+#     a.append(x)
+# for x in c:
+#     a.append(x)
+# print(a)
+
+#Q2: simpler way to achieve the same result, comment out the previous solution first
+print (a+b+c)
+
