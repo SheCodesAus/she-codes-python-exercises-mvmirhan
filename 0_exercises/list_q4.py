@@ -10,12 +10,12 @@ list_1=[a,b,c]
 print(list_1)
 
 #Q2: what is the other way to achieve this? 
-# for x in b:
-#     a.append(x)
-# for x in c:
-#     a.append(x)
-# print(a)
+for x in b:
+    a.append(x)
+for x in c:
+    a.append(x)
+print(a)
 
 #Q2: simpler way to achieve the same result, comment out the previous solution first
-print (a+b+c)
+# print (a+b+c)
 
