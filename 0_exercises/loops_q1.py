@@ -4,7 +4,8 @@
 num=int(input("enter a number: "))
 for count in range(1,num+1):   #stop should match number I entered num + 1
     print(num, "x", count, "=", num * count)
-    # print(f"{num} * {count} = {num * count}") #Asli's way
+
+print(f"{num} * {count} = {num * count}") #Asli's way
 
 
 
