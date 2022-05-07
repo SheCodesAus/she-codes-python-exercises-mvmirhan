@@ -1,25 +1,11 @@
-# Ask the user to enter a string. Output the string one character at a time, as well as it’s position in the string.
+number = int(input("Enter a number: "))
+sum=0
+list=[]
 
-from calendar import c
-from lib2to3.pgen2.token import AT
-from re import A, T
+list=len(range(0,sum+1))
+# while sum %2 > 0:
+sum=sum+number
+print(sum)
 
 
-string_value=input("Please enter a string: ")
-
-for pos in range(len(string_value)):
-    print(pos)
-
-for char in string_value:
-    print(char)
-
-#Current output
-# 0
-# 1
-# 2
-# 3
-# a
-# a
-# t
-# s
-#I'M STUCK HERE. 
+#try to define an empty list to hold values that will be iterated, then use the append
