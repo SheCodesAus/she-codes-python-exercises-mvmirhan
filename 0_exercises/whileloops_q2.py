@@ -1,11 +1,13 @@
+# Ask the user to enter a number. 
+# Print all the odd numbers between 0 and that number (inclusive).
+
+
 number = int(input("Enter a number: "))
-sum=0
-list=[]
-
-list=len(range(0,sum+1))
-# while sum %2 > 0:
-sum=sum+number
-print(sum)
+number = 9
+for i in range (1,number+1,2):
+    print(i)
+    i = i + 1
 
 
-#try to define an empty list to hold values that will be iterated, then use the append
+
+    
