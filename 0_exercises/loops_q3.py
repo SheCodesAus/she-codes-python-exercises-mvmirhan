@@ -4,7 +4,7 @@ random_numbers = [3, 5, 9, 1]   # initialize a list of integers
 total = 0                       # initialize variable to hold the sum of list elements
 for num in random_numbers:      # iterate over the list   
     total = total + num         # add current list element to the sum
-print(total)
+    print(total)
 
 random_numbers = [-3, -5, 9, 1]  
 total = 0                       
