@@ -31,6 +31,7 @@ with open("csv_files/colours_213.csv", encoding="utf-8") as colours_213_obj:
         if list_words[3] in line[4].lower():     
             yellow_total += 1
 
+print(line)
 print(f"Red: {red_total}")
 print(f"Green: {green_total}")
 print(f"Blue: {blue_total}")
